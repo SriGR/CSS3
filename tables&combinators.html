@@ -1,0 +1,77 @@
+<html>
+<head>
+
+</head>
+
+<body> 
+
+<div>
+<table> 
+<style>
+body
+{
+background-image:url("sreee.jpg");
+background-repeat:no-repeat;
+background-size:100%;
+font-size:20px;
+}
+th{font-size:25px;}
+table,th,tr,td
+{
+border:3px solid black;
+border-collapse:collapse;
+width:1000px;
+text-align:center;
+vertical-align:middle;
+padding:10px;
+margin:5px;
+color:blue;
+}
+tr:nth-child(even){background-color:gray;}
+tr:nth-child(odd){background-color:yellow;}
+h2{text-decoration:underline;}
+
+div >P {background-color:gray;}
+div + P {background-color:red;}
+div ~ P {background-color:green;}
+</style> 
+<h2>CSS TABLES:</h2>
+
+<tr>
+<th>NAME</th>
+<th>AGE</th>
+<th>NATIVE</th>
+</tr>
+<tr>
+<td style="background-color:green">SREE</td>
+<td style="background-color:#92a8d1">23</td>
+<td style="background-color:rgb(201, 76, 76)">SALEM</td>
+</tr>
+<tr>
+<td style="background-color:#80ced6">GOKUL</td>
+<td style="background-color:pink">24</td>
+<td style="background-color:#d5f4e6">ERODE</td>
+</tr>
+<tr>
+<td style="background-color:purple">RANJITH</td>
+<td style="background-color:hsl(89, 43%, 51%)">25</td>
+<td style="background-color:orange">CHENNAI</td>
+</tr>
+</table>
+
+</div>
+
+<h2>COMBINATORS:</h2>
+<div>
+<p>paragraph 1.in the div (DESENANT SELECTOR)</p>
+<p>paragraph 2.in the div (DESENANT SELECTOR)</p>
+<section><p>paragraph 3.in the div (CHILD SELECTOR)</p></section>
+<p>paragraph 4.in the div (DESENANT SELECTOR)</p>
+</div> 
+
+<p>paragraph 5.not in the div (GENRAL SIBLING SELECTOR)</p>
+<p>paragraph 6.not in the div (GENRAL SIBLING SELECTOR)</p>
+
+
+</body>
+</html>
